@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+form {
+  margin: 10% auto;
+  background: rgb(26, 116, 122);
+  -webkit-box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 6);
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 6);
+  width: 176px;
+  height: 227px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 3px;
+}
+input[type="text"] {
+  width: 100%;
+  font-size: 36px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  text-align: right;
+}
+input[type="button"] {
+  width: 37px;
+  margin-bottom: 12px;
+  border: none;
+  background-color: rgb(98, 185, 144);
+  border-radius: 5px;
+  color: white;
+}
+hr {
+  width: 173px;
+}
+.other input[type="button"] {
+  background-color: brown;
+}
